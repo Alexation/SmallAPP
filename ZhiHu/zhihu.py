@@ -18,3 +18,4 @@ content = re.findall('<div class="HotList-itemTitle">(.*?)</div>', response)
 content2 = re.findall('<div class="HotList-itemExcerpt">(.*?)</div>', response)
 print(html_content2)
 print(content2)
+
